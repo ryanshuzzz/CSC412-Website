@@ -1,0 +1,83 @@
+
+
+body {
+  padding-top: 54px;
+    background-color: black;
+    font-color: white;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    background-color: black;
+    font-color: white;
+  }
+}
+
+.header {
+  height: 60vh;
+  min-height: 300px;
+  background: url('https://i.imgur.com/eikZoUO.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.contact-header {
+  height: 15vh;
+  min-height: 250px;
+  background: url('https://i.imgur.com/ghJQ53I.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.projects-header {
+  height: 15vh;
+  min-height: 250px;
+  background: url('https://i.imgur.com/XVNPV2Q.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.card {
+  height: 100%;
+}
+root { 
+    display: block;
+}
+
+.centered {
+	text-align : center ;
+	}
+.sansSerif{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.top{
+    top:0;
+} 
+.centered-div{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
+.bottomside-padding{
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bold{
+    font-weight:bold;
+}
